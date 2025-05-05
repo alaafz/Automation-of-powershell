@@ -16,7 +16,6 @@
 
 * PowerShell Version: 5.1 or later
 * Administrative Privileges: Required for certain tasks
-* Required Modules: Install dependencies using:
 
 ## Installation & Usage ##
 Step 1: 
