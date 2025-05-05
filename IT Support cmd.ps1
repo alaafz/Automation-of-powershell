@@ -154,7 +154,7 @@ function TryServiceHealthService {
     }
     catch {
         <#Do this if a terminating exception happens#>
-        Write-Error "An error occurred while retrieving storage report : $_"
+        Write-Error "An error occurred while retrieving service report : $_"
     }    
 }
 
@@ -344,7 +344,7 @@ do {
             TryDiskUsageOfDevice
         }
         '5' {
-            Write-Host "Check Disk Storage Space..." -ForegroundColor White
+            Write-Host "Check Security Service health status..." -ForegroundColor White
             # Place your logic for generating the Error Application Event Logs report here
             TryServiceHealthService
         }
